@@ -1,7 +1,7 @@
-# Fresh project
+# GitHub-flavored GFM :thinking: tester
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are $$
+x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 ### Usage
 
