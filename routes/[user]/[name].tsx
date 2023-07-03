@@ -21,8 +21,15 @@ export const handler: Handlers<PageData> = {
 export default function Greet(props: PageProps<PageData>) {
   return (
     <div>
+      <link
+        rel="stylesheet"
+        href="https://sindresorhus.com/github-markdown-css/github-markdown.css"
+      />
       <div>Hello {props.params.user} {props.params.name}</div>
-      <div dangerouslySetInnerHTML={{ __html: render(props.data.body) }} />
+      <div
+        class="markdown-body"
+        dangerouslySetInnerHTML={{ __html: render(props.data.body) }}
+      />
     </div>
   );
 }

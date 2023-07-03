@@ -6,6 +6,10 @@ export default function Home() {
     <>
       <Head>
         <title>Fresh App</title>
+        <link
+          rel="stylesheet"
+          href="https://sindresorhus.com/github-markdown-css/github-markdown.css"
+        />
       </Head>
       <div>
         <ul>
