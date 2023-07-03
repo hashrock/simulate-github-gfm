@@ -25,7 +25,18 @@ export default function Greet(props: PageProps<PageData>) {
         rel="stylesheet"
         href="https://sindresorhus.com/github-markdown-css/github-markdown.css"
       />
-      <div>Hello {props.params.user} {props.params.name}</div>
+      <style>
+        {`
+        .markdown-body {
+          box-sizing: border-box;
+          min-width: 200px;
+          max-width: 980px;
+          margin: 0 auto;
+          padding: 45px;
+        }
+        `}
+      </style>
+      <div>{props.params.user} / {props.params.name}</div>
       <div
         class="markdown-body"
         dangerouslySetInnerHTML={{ __html: render(props.data.body) }}
