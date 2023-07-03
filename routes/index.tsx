@@ -14,13 +14,13 @@ export default function Home() {
       <div>
         <ul>
           <li>
-            <a href="hashrock/simulate-github-gfm">
+            <a href="hashrock/simulate-github-gfm/README.md">
               hashrock/simulate-github-gfm
             </a>
           </li>
 
           <li>
-            <a href="remarkjs/remark-math">remarkjs/remark-math</a>
+            <a href="remarkjs/remark-math/readme.md">remarkjs/remark-math</a>
           </li>
           <li>
             <a href="https://github.com/remarkjs/remark-math">
