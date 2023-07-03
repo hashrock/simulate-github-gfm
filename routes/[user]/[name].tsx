@@ -12,7 +12,7 @@ export const handler: Handlers<PageData> = {
     const name = ctx.params.name;
 
     const body = await (await fetch(
-      `https://raw.githubusercontent.com/${user}/${name}/main/readme.md`,
+      `https://raw.githubusercontent.com/${user}/${name}/main/README.md`,
     )).text();
     return ctx.render({ body });
   },
