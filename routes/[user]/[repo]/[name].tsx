@@ -31,6 +31,10 @@ export default function Greet(props: PageProps<PageData>) {
         href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"
         integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC"
       />
+      <link
+        rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css"
+      />
       <style>
         {`
         .markdown-body {
